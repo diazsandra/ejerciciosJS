@@ -1,0 +1,6 @@
+var A = prompt("Dame el primer número")
+var B = prompt("Dame el segundo número")
+var C = prompt("Dame el tarcer número")
+var S = (parseInt(A)+parseInt(B)+parseInt(C))
+var P = (parseInt(S)/3)
+alert("El promedio de los tres números es igual a " +P)
